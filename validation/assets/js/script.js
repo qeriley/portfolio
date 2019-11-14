@@ -1,0 +1,3 @@
+$( "#PatientReg" ).validate({
+
+});

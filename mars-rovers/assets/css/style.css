@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+  display:flex;
+  justify-content:center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    background-color:#D87358;
+    background-image:url("../img/nasa_mars_wallpaper.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:'Quicksand', sans-serif;
+    color:#fff;
+}
+#header{
+    background:#0A0C0B;
+    padding:5px;
+    text-align:center;
+}
+#header a{
+color:#fff;
+text-decoration:none;
+}
+#header a:hover{
+color:#c4c4c4;
+text-decoration:none;
+}
+
+nav ul{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    margin-right: 1px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A66654;
+}
+nav ul {
+    margin: 0px auto;
+}
+nav {
+    background-color: #A66654;
+}
+
+/*
+#nav{
+  background-color: #A66654;
+
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A66654;
+}
+
+#nav li {
+  float:right;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #7a493b;
+}
+*/
+.container{
+    background-color:rgba(10, 12, 11, 0.50);
+    width:80vw;
+}
+p{
+    padding:10px;
+}
+h2{
+    padding:10px;
+}
+h3{
+  padding:10px;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:#c4c4c4;
+}
+h6{
+  padding:10px;
+}
+
+
+footer{
+    background-color:#5a2017;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+
+/*-----utility classes for pictures-----*/
+.align-right{
+    float:right;
+    margin:10px 0 10px 10px;
+    padding:7.5px;
+    width:300px;
+}
+
+.align-left{
+    float:left;
+    margin:10px 10px 10px 0;
+    padding:7.5px;
+    width:300px;
+}
+
+.footer{
+    width:300px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+/*--------------------------------------*/
